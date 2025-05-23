@@ -128,5 +128,5 @@ class WormsArmageddonGame(Game):
             "Strategic",
             "Darkside",
             "Armageddon",
-            "Blast Zone",
+            "Blast Zone"
         ]
