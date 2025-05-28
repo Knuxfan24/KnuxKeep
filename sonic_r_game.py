@@ -17,7 +17,7 @@ from ..enums import KeymastersKeepGamePlatforms
 class SonicRArchipelagoOptions:
     pass
 
-class Sonic06Game(Game):
+class SonicRGame(Game):
     # Set the game name.
     name = "Sonic R"
 
