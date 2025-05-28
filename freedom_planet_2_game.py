@@ -29,7 +29,7 @@ class FreedomPlanet2Game(Game):
         KeymastersKeepGamePlatforms.PS5,
         KeymastersKeepGamePlatforms.SW,
         KeymastersKeepGamePlatforms.XONE,
-        KeymastersKeepGamePlatforms.XSX,
+        KeymastersKeepGamePlatforms.XSX
     ]
 
     # Set whether or not this game falls under AP-AfterDark.
@@ -50,7 +50,7 @@ class FreedomPlanet2Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -62,7 +62,7 @@ class FreedomPlanet2Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=1,
+                weight=1
             ),
             GameObjectiveTemplate
             (
@@ -73,7 +73,7 @@ class FreedomPlanet2Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=5,
+                weight=5
             ),
             GameObjectiveTemplate
             (
@@ -84,7 +84,7 @@ class FreedomPlanet2Game(Game):
                 },
                 is_time_consuming=True,
                 is_difficult=False,
-                weight=3,
+                weight=3
             ),
             GameObjectiveTemplate
             (
@@ -96,7 +96,7 @@ class FreedomPlanet2Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=5,
+                weight=5
             ),
             GameObjectiveTemplate
             (
@@ -108,7 +108,7 @@ class FreedomPlanet2Game(Game):
                 },
                 is_time_consuming=True,
                 is_difficult=True,
-                weight=3,
+                weight=3
             )
         ]
 

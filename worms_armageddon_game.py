@@ -28,7 +28,7 @@ class WormsArmageddonGame(Game):
         KeymastersKeepGamePlatforms.PS5,
         KeymastersKeepGamePlatforms.SW,
         KeymastersKeepGamePlatforms.XONE,
-        KeymastersKeepGamePlatforms.XSX,
+        KeymastersKeepGamePlatforms.XSX
     ]
 
     # Set whether or not this game falls under AP-AfterDark.
@@ -37,7 +37,7 @@ class WormsArmageddonGame(Game):
     # Set this game's options.
     options_cls = WormsArmageddonArchipelagoOptions
 
-    # Create this game's objectives that don't require any options to be set.
+    # Create this game's objectives.
     def game_objective_templates(self) -> List[GameObjectiveTemplate]:
         objectives = [
             GameObjectiveTemplate
@@ -48,7 +48,7 @@ class WormsArmageddonGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -58,7 +58,7 @@ class WormsArmageddonGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -68,7 +68,7 @@ class WormsArmageddonGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -79,7 +79,7 @@ class WormsArmageddonGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -90,7 +90,7 @@ class WormsArmageddonGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -101,7 +101,7 @@ class WormsArmageddonGame(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             )
         ]
 

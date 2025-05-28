@@ -58,7 +58,7 @@ class Sonic06Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=10,
+                weight=10
             ),
             GameObjectiveTemplate
             (
@@ -68,7 +68,7 @@ class Sonic06Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=5,
+                weight=5
             ),
             GameObjectiveTemplate
             (
@@ -76,7 +76,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=3,
+                weight=3
             ),
             GameObjectiveTemplate
             (
@@ -84,7 +84,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=5,
+                weight=5
             ),
             GameObjectiveTemplate
             (
@@ -92,7 +92,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=3,
+                weight=3
             ),
             GameObjectiveTemplate
             (
@@ -100,7 +100,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=1,
+                weight=1
             ),
             GameObjectiveTemplate
             (
@@ -116,7 +116,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=3,
+                weight=3
             ),
             GameObjectiveTemplate
             (
@@ -124,7 +124,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=4,
+                weight=4
             ),
             GameObjectiveTemplate
             (
@@ -132,7 +132,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=3,
+                weight=3
             ),
             GameObjectiveTemplate
             (
@@ -140,7 +140,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=1,
+                weight=1
             ),
             GameObjectiveTemplate
             (
@@ -148,7 +148,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=1,
+                weight=1
             ),
             GameObjectiveTemplate
             (
@@ -156,7 +156,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=1,
+                weight=1
             ),
             GameObjectiveTemplate
             (
@@ -164,7 +164,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=5,
+                weight=5
             ),
             GameObjectiveTemplate
             (
@@ -172,7 +172,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=False,
                 is_difficult=True,
-                weight=3,
+                weight=3
             )
         ]
     
@@ -186,7 +186,7 @@ class Sonic06Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=5,
+                weight=5
             )
         ])
     
@@ -200,7 +200,7 @@ class Sonic06Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=5,
+                weight=5
             )
         ])
     
@@ -214,7 +214,7 @@ class Sonic06Game(Game):
                 },
                 is_time_consuming=False,
                 is_difficult=False,
-                weight=5,
+                weight=5
             )
         ])
     
@@ -226,7 +226,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=True,
                 is_difficult=False,
-                weight=3,
+                weight=3
             )
         ])
     
@@ -238,7 +238,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=True,
                 is_difficult=False,
-                weight=3,
+                weight=3
             )
         ])
     
@@ -250,7 +250,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=True,
                 is_difficult=False,
-                weight=3,
+                weight=3
             )
         ])
     
@@ -262,7 +262,7 @@ class Sonic06Game(Game):
                 data=dict(),
                 is_time_consuming=True,
                 is_difficult=False,
-                weight=5,
+                weight=5
             )
         ])
 
@@ -282,7 +282,7 @@ class Sonic06Game(Game):
             "Radical Train",
             "Tropical Jungle",
             "Kingdom Valley",
-            "Aquatic Base",
+            "Aquatic Base"
         ]
     @staticmethod
     def stages_shadowVH() -> List[str]:
@@ -294,7 +294,7 @@ class Sonic06Game(Game):
             "Flame Core",
             "Radical Train",
             "Kingdom Valley",
-            "Aquatic Base",
+            "Aquatic Base"
         ]
     @staticmethod
     def stages_silverVH() -> List[str]:
@@ -306,7 +306,7 @@ class Sonic06Game(Game):
             "Radical Train",
             "Tropical Jungle",
             "Kingdom Valley",
-            "Aquatic Base",
+            "Aquatic Base"
         ]
 
     # Define the list of characters.
@@ -359,7 +359,7 @@ class Sonic06DLCOwned(OptionSet):
         "Boss Attack Mode (Sonic)",
         "Boss Attack Mode (Shadow)",
         "Boss Attack Mode (Silver)",
-        "Team Attack Amigo",
+        "Team Attack Amigo"
     ]
 
     default = valid_keys
